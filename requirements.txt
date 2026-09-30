@@ -1,0 +1,14 @@
+# Runtime dependencies for CPython 3.10+.
+# Minimum versions let pip choose wheels compatible with the installed Python.
+asgiref>=3.7
+base58>=2.1.1
+cryptography>=41
+ecdsa>=0.19
+Flask>=3.0
+flask-cors>=4.0
+Hypercorn>=0.16
+ipfshttpclient>=0.7.0,<0.8
+psutil>=5.9
+RestrictedPython>=7.4
+requests>=2.31
+websockets>=12
